@@ -16,7 +16,7 @@ import { stringify } from 'querystring';
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
   prefix:
-    process.env.NODE_ENV === 'production' ? 'http://user-backend.lion_code.top' : 'http://localhost:8000',
+    process.env.NODE_ENV === 'production' ? 'http://43.138.104.141' : 'http://localhost:8000',
   // requestType: 'form',
 });
 
