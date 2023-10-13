@@ -19,7 +19,7 @@
   - 删除用户
 
 #### 用户注册界面
-![image-20231013160515196]([https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155321985.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))
+![image](./readmeshows/image-20231013155503620.png)
 
 #### 用户登录界面
 
@@ -43,4 +43,4 @@
 
 #### 管理员修改用户信息
 
-[https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png)https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png
+![image](./readmeshows/image-20231013155503620.png)
