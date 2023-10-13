@@ -30,7 +30,7 @@ const Welcome: React.FC = () => {
               textAlign: 'center',
             }}
           >
-            <SmileTwoTone /> 十二用户中心管理 <HeartTwoTone twoToneColor="#eb2f96" />
+            <SmileTwoTone /> Lion学习圈用户中心管理 <HeartTwoTone twoToneColor="#eb2f96" />
           </Typography.Title>
         </Card>
         <Carousel autoplay autoplaySpeed={10000} style={contentStyle}>

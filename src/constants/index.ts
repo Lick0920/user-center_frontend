@@ -1,6 +1,6 @@
 /**
  * @author index
- * CreateTime 2023/5/7 15:24
+ * createtime 2023/5/7 15:24
  */
 
 /**
@@ -28,53 +28,16 @@ export const selectUserStatus = [
   { value: 0, label: '正常' },
   { value: 1, label: '注销' },
 ];
-export const selectUserRole = [
+export const selectuserrole = [
   { value: 'user', label: '普通用户' },
   { value: 'admin', label: '管理员' },
   { value: 'ban', label: '封号' },
 ];
 export const selectAvatarUrl = [
-  { value: 'http://picgo.kongshier.top/typoraImages/48.jpeg', label: '美女' },
-  { value: 'http://picgo.kongshier.top/typoraImages/HeadPortrait.jpg', label: '猫咪' },
-  { value: 'http://picgo.kongshier.top/typoraImages/cats.jpg', label: '功夫猫咪' },
-  {
-    value:
-      'https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8f11d5f659e4babad1be4aab185acb6~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐1号',
-  },
-  {
-    value:
-      'https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33d8f1d47ed24eb4b5f6e80f0300f20b~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '御姐1号',
-  },
-  {
-    value:
-      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8b809c804414e2d86677b1952092d52~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐2号',
-  },
-  {
-    value:
-      'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e020ad610d3241b69a7cb492a210df03~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐3号',
-  },
-  {
-    value:
-      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9f4b4b8ff4a84406bfe18f6a27a3e3f8~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐4号',
-  },
-  {
-    value:
-      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/14e4ebc30a124d7ca30c41d6e8fd0497~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐5号',
-  },
-  {
-    value:
-      'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d210d1b4c3434e72b2e9711dedcb6cfa~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐6号',
-  },
-  {
-    value:
-      'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5371651be7c74109a685d3d801f73f52~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '小姐姐7号',
-  },
+  { value: 'https://p.qqan.com/up/2020-5/2020052808384093527.jpg', label: '可爱女生' },
+  { value: 'https://ts1.cn.mm.bing.net/th/id/R-C.44a04163fff09f22c9c948db14f8d35f?rik=aSLwnez5FeZbPQ&riu=http%3a%2f%2fimg.crcz.com%2fallimg%2f202003%2f26%2f1585192258111284.jpg&ehk=LIugC9N9Y1cHtTu6slaWHbg3G0bIckCFrr6qoVnOEKo%3d&risl=&pid=ImgRaw&r=0', label: '猫咪1' },
+  { value: 'https://tupian.qqw21.com/article/UploadPic/2020-5/20205622141367241.jpg', label: '柯基' },
+  { value: 'https://pic.qqtn.com/up/2020-2/2020022708453277469.jpg', label: '猫咪2' },
+  { value: 'http://5b0988e595225.cdn.sohucs.com/images/20171018/3ab4d838817d4bf5b13c94e8e17eaee4.jpeg', label: '柴犬' },
+
 ];

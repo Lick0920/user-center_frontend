@@ -26,9 +26,9 @@ const UserInfo: React.FC = () => {
     phone: '',
     email: '',
     userStatus: 0,
-    userRole: 'user',
-    createTime: '',
-    userCode: -1,
+    userrole: 'user',
+    createtime: '',
+    vipCode: -1,
   });
   useEffect(() => {
     async function fetch() {
@@ -61,16 +61,16 @@ const UserInfo: React.FC = () => {
           {myUser.userAccount}
         </Descriptions.Item>
         <Descriptions.Item label="用户角色" span={1.5}>
-          {myUser.userRole === 'user' ? '普通用户' : '管理员'}
+          {myUser.userrole === 'admin' ? '管理员' : '普通用户'}
         </Descriptions.Item>
         <Descriptions.Item label="用户性别" span={1.5}>
           {myUser.gender !== null ? (myUser.gender === '男' ? '男' : '女') : '未填写'}
         </Descriptions.Item>
-        <Descriptions.Item label="用户编号" span={1.5}>
-          {myUser.userCode}
+        <Descriptions.Item label="用户vip编号" span={1.5}>
+          {myUser.vipCode}
         </Descriptions.Item>
         <Descriptions.Item label="创建时间" span={1.5}>
-          {myUser.createTime}
+          {myUser.createtime}
         </Descriptions.Item>
         <Descriptions.Item label="用户状态" span={1.5}>
           {myUser.userStatus === 0 ? '正常' : '异常'}
@@ -120,10 +120,10 @@ const UserInfo: React.FC = () => {
           />
           <ProFormText
             width="md"
-            name="userCode"
-            label="用户编号"
-            placeholder="请输入用户编号"
-            initialValue={myUser.userCode}
+            name="vipCode"
+            label="用户vip编号"
+            placeholder="请输入vip邀请码"
+            initialValue={myUser.vipCode}
           />
           <ProFormText
             width="md"

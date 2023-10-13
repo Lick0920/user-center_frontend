@@ -5,7 +5,7 @@ import { bilibili_LINK } from '@/constants';
 const Footer: React.FC = () => {
   const defaultMessage = 'Lion出品';
   const currentYear = new Date().getFullYear();
-  const beian = '京ICP备2023001001号-1';
+  const beian = '未备案2023xxxxxx号-0';
   const beianUrl = 'https://beian.miit.gov.cn/#/Integrated/index';
   return (
     <DefaultFooter

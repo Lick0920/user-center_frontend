@@ -4,7 +4,7 @@ import { ProFormSelect } from '@ant-design/pro-form';
 import { message, Tabs } from 'antd';
 import { create } from '@/services/ant-design-pro/api';
 import { SYSTEM_LOGO } from '@/constants';
-import { selectAvatarUrl, selectGender, selectUserRole, selectUserStatus } from '@/constants';
+import { selectAvatarUrl, selectGender, selectuserrole, selectUserStatus } from '@/constants';
 import { API } from '@/services/ant-design-pro/typings';
 
 export default () => {
@@ -94,20 +94,16 @@ export default () => {
               ]}
             />
             <ProFormText
-              name="userCode"
+              name="Code"
               fieldProps={{
                 size: 'large',
                 prefix: <UserOutlined className={'prefixIcon'} />,
               }}
-              placeholder={'请输入你想要编号 '}
+              placeholder={'请输入你的vip邀请码 '}
               rules={[
                 {
                   max: 15,
-                  message: '用户编号不得大于15位',
-                },
-                {
-                  required: true,
-                  message: '用户编号必填',
+                  message: '用户vip邀请码不得大于15位',
                 },
               ]}
             />
@@ -186,12 +182,12 @@ export default () => {
               ]}
             />
             <ProFormSelect
-              name="userRole"
+              name="userrole"
               fieldProps={{
                 size: 'large',
               }}
               label="用户角色"
-              options={selectUserRole}
+              options={selectuserrole}
               placeholder={'选择用户角色'}
               rules={[
                 {

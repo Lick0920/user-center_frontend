@@ -1,10 +1,10 @@
 import type { ActionType, ProColumns } from '@ant-design/pro-components';
-import { ModalForm, ProForm, ProFormText, ProTable } from '@ant-design/pro-components';
+import {ModalForm, proFieldParsingValueEnumToArray, ProForm, ProFormText, ProTable} from '@ant-design/pro-components';
 import { Button, Image, message, Popconfirm, Tag } from 'antd';
 import { useRef } from 'react';
 import { deleteUser, searchUsers, updateUserInfoByAdmin } from '@/services/ant-design-pro/api';
 import { ProFormSelect } from '@ant-design/pro-form';
-import { selectAvatarUrl, selectGender, selectUserRole, selectUserStatus } from '@/constants';
+import { selectAvatarUrl, selectGender, selectuserrole, selectUserStatus } from '@/constants';
 import type { API } from '@/services/ant-design-pro/typings';
 
 export const waitTimePromise = async (time: number = 100) => {
@@ -55,7 +55,7 @@ const columns: ProColumns<API.CurrentUser>[] = [
   },
   {
     title: '编号',
-    dataIndex: 'userCode',
+    dataIndex: 'vipCode',
     copyable: true,
     align: 'center',
   },
@@ -96,7 +96,7 @@ const columns: ProColumns<API.CurrentUser>[] = [
   },
   {
     title: '用户角色',
-    dataIndex: 'userRole',
+    dataIndex: 'userrole',
     // 枚举
     valueType: 'select',
     valueEnum: {
@@ -108,7 +108,7 @@ const columns: ProColumns<API.CurrentUser>[] = [
   },
   {
     title: '创建时间',
-    dataIndex: 'createTime',
+    dataIndex: 'createtime',
     valueType: 'dateTime',
     align: 'center',
   },
@@ -160,10 +160,10 @@ const columns: ProColumns<API.CurrentUser>[] = [
           />
           <ProFormText
             width="md"
-            name="userCode"
-            label="用户编号"
-            placeholder="请输入编号"
-            initialValue={record.userCode}
+            name="vipCode"
+            label="用户vip编号"
+            placeholder="请输入vip邀请码"
+            initialValue={record.vipCode}
           />
           <ProFormText
             width="md"
@@ -235,13 +235,13 @@ const columns: ProColumns<API.CurrentUser>[] = [
             ]}
           />
           <ProFormSelect
-            name="userRole"
+            name="userrole"
             fieldProps={{
               size: 'large',
             }}
             label="用户角色"
-            options={selectUserRole}
-            initialValue={record.userRole}
+            options={selectuserrole}
+            initialValue={record.userrole}
             placeholder={'选择用户角色'}
             rules={[
               {
@@ -291,8 +291,8 @@ export default () => {
       actionRef={actionRef}
       cardBordered
       // 获取后端的数据，返回到表格
-      request={async (params = {}, sort, filter) => {
-        console.log(sort, filter);
+      request={async ( params, sort, filter) => {
+        console.log(params, sort, filter);
         await waitTime(2000);
         const userList = await searchUsers();
         return { data: userList };
