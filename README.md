@@ -19,7 +19,7 @@
   - 删除用户
 
 #### 用户注册界面
-[![image-20231013160515196](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155321985.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png)
+[![image-20231013160515196]([https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155321985.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))]
 
 #### 用户登录界面
 
@@ -27,15 +27,16 @@
 
 #### 用户信息界面
 
-[![image-20231013155321985](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013155321985.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155321985.png)
+[![image-20231013160515196]([https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155321985.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))]
 
 #### 用户修改个人信息界面
 
 [![image-20231013160401254](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013160401254.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png)
 
 #### 管理员新增用户
+[![image-20231013160401254]([C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013160401254.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-202310131558302551.png
+))](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png)
 
-[image](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-202310131558302551.png)
 #### 管理员查询所有用户
 
 [![image-20231013160236632](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013160236632.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013160236632.png)
