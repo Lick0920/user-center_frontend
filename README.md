@@ -20,7 +20,7 @@
 
 #### 用户注册界面
 
-![image-20231013153745494]([.\readmeshows\image-20231013153745494.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))
+[![image-20231013153745494]([.\readmeshows\image-20231013153745494.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png)
 
 #### 用户登录界面
 
@@ -35,13 +35,12 @@
 [![image-20231013160401254](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013160401254.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png)
 
 #### 管理员新增用户
-[![image-20231013155915636](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-202310131558302551.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-202310131558302551.png)
 
+[image](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-202310131558302551.png)
 #### 管理员查询所有用户
 
 [![image-20231013160236632](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013160236632.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013160236632.png)
 
 #### 管理员修改用户信息
 
-[![image-20231013155503620]([C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013155503620.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png))](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png)https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png
-
+[https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png)https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013155503620.png
