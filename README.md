@@ -1,5 +1,7 @@
-# 用户中心系统
+### Lion交流学习圈系统
 
-用户管理，管理员可对用户进行增删改查操作，用户可以修改自己的信息
+#### 用户注册界面
 
-### | by Lion
+![image-20231013153745494](C:\Users\Lick\AppData\Roaming\Typora\typora-user-images\image-20231013153745494.png)
+
+![image-20231013153745494](C:\Users\Lick\Desktop\seekworking\JAVA\java_learning\user-center_frontend\readmeshows\image-20231013153745494.png)
