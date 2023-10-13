@@ -20,7 +20,7 @@
 
 #### 用户注册界面
 
-[![image-20231013153745494]([.\readmeshows\image-20231013153745494.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png)
+[[![image-20231013153745494]([.\readmeshows\image-20231013153745494.png](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png))](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png)](https://github.com/Lick0920/user-center_frontend/blob/main/readmeshows/image-20231013153745494.png)
 
 #### 用户登录界面
 
