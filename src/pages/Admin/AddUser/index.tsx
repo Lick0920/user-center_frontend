@@ -94,7 +94,7 @@ export default () => {
               ]}
             />
             <ProFormText
-              name="Code"
+              name="vipCode"
               fieldProps={{
                 size: 'large',
                 prefix: <UserOutlined className={'prefixIcon'} />,

@@ -1,5 +1,5 @@
 import type { ActionType, ProColumns } from '@ant-design/pro-components';
-import {ModalForm, proFieldParsingValueEnumToArray, ProForm, ProFormText, ProTable} from '@ant-design/pro-components';
+import { ModalForm, ProForm, ProFormText, ProTable } from '@ant-design/pro-components';
 import { Button, Image, message, Popconfirm, Tag } from 'antd';
 import { useRef } from 'react';
 import { deleteUser, searchUsers, updateUserInfoByAdmin } from '@/services/ant-design-pro/api';
@@ -54,7 +54,7 @@ const columns: ProColumns<API.CurrentUser>[] = [
     align: 'center',
   },
   {
-    title: '编号',
+    title: 'vip编号',
     dataIndex: 'vipCode',
     copyable: true,
     align: 'center',
@@ -291,7 +291,7 @@ export default () => {
       actionRef={actionRef}
       cardBordered
       // 获取后端的数据，返回到表格
-      request={async ( params, sort, filter) => {
+      request={async (params, sort, filter) => {
         console.log(params, sort, filter);
         await waitTime(2000);
         const userList = await searchUsers();
